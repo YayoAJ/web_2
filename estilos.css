@@ -1,0 +1,17 @@
+header{
+    color: white;
+}
+
+div {
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
