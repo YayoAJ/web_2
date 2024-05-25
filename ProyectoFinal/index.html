@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagenes/CSV.png" type="image/x-icon">
+</head>
+<body>
+    <h1>CSV Data</h1>
+    <table id="csvTable">
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Correo</td>
+                <td>Edad</td>
+                <td>Carrera</td>
+                <td>Núm. de cuenta</td>
+                <td>Semestre</td>
+            </tr>
+        </thead>
+        <tbody>
+           <!--  toda la informacion se hace desde JS -->
+        </tbody>
+    </table>
+    <div>
+        <input type="file" accept=".csv">
+        <p>Para eliminar una fila haga click en ella</p>
+        <button style="cursor: pointer;" onclick="descargarCSV()">Descargar CSV</button>
+    </div>
+
+    <div>
+        <h2>Agregar una nueva fila al CSV</h2>
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre" placeholder="Introduzca su nombre"><br>
+        <label>Correo:</label><br>
+        <input type="email" id="correo" placeholder="Introduzca su correo"><br>
+        <label>Edad:</label><br>
+        <input type="number" id="edad" placeholder="Introduzca su edad"><br>
+        <label>Carrera:</label><br>
+        <input type="text" id="carrera" placeholder="Introduzca su carrera"><br>
+        <label>Número de cuenta:</label><br>
+        <input type="number" id="no_cuenta" placeholder="Introduzca su número de cuenta"><br>
+        <label>Semestre:</label><br>
+        <input type="number" id="semestre" placeholder="Introduzca el semestre en que esta cursando"><br>
+        <hr>
+        <button style="cursor: cell;" onclick="agregarDatos()">Agregar</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

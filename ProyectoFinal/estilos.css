@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid purple;
+}
+
+div{
+    background-color: rgb(57, 57, 57);
+}
+
+label {
+    padding-bottom: 20px;
+}
+
+input{
+    width: 40%;
+    margin: 5px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: chartreuse;
+}
+
+button:hover{
+    transition-duration: .5s;
+    background-color: rgb(81, 160, 1);
+    color: white;
+}
+
+th,tr {
+    border: 1px solid purple;
+    text-align: center;
+}
+
+tr:hover {
+    transition-duration: .5s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+hr {
+    width: 50%;
+}
